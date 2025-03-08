@@ -6,7 +6,7 @@ QG utilizing the Stanford Question Answering Dataset (SQuAD) as the benchmark. T
 methodology encompasses transformer architectures for question generation on SQUAD 
 dataset. 
 
-# End to end question generation 
+## End to end question generation 
 This approach focuses on generating multiple questions related to a single context .During 
 training the context is provided as an input and a set of related questions separated by <sep> 
 token are provided as the target text . The input text and target text are then padded to a uniform 
